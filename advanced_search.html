@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" href = "css files/advanced.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    </head>
+
+
+    <body>
+        <div class="topbar">
+            <div class="topbar_left">
+                <a href="index.html" id="logo1"><img src="https://www.google.co.nz/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" width="90px" height="30px"></a>
+            </div>
+
+            <div class="topbar_right">
+                <a href="images_search.html" id="images_search">Images</a>
+                <a href="index.html" id="google_home">Google</a>
+                <a href="#" id="apps"> <i class="fas fa-th"></i> </a> 
+                <button id="sign-in">Sign in</button>
+            </div>
+        </div>
+
+        <div class="header_search">
+            <p>Advanced Search</p>
+        </div>
+
+
+        <div class="pages">
+            <div class="header1">
+                <p>Find pages with...</p>
+            </div>
+            <div class="content">
+                <form id="adv_search" action="https://google.com/search">
+                    <label for="all_words">all these words:</label>
+                    <input id="a_words" type="text" name="as_q"> <br>
+                    </label>
+
+                    <label for="exact_words">this exact word or phrase:</label>
+                    <input id="e_words" type="text" name="as_epq"> <br>
+
+                    <label for="any_words">any of these words:</label>
+                    <input id="any_words" type="text" name="as_oq"> <br>
+
+                    <label for="none_words">none of these words:</label>
+                    <input id="n_words" type="text" name="as_eq"> <br>
+
+
+                    <div class="button_adv">
+                        <button id="google_search" type="submit">Advanced Search</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <p>New Zealand</p>
+            <div class ="footer_both">
+                <div class="footer_left">
+                    <a href="#" >Help</a>
+                    <a href="#" >Privacy</a>
+                    <a href="#" >Terms</a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+
+</html>

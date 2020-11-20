@@ -1,0 +1,187 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    margin-right: 10px;
+    line-height: 40px;
+}
+
+a:hover, a:active{
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+button:hover, #apps:hover{
+    opacity: 0.5;
+}
+
+#apps{
+    font-size: 1.1rem;
+}
+
+#apps, button{
+    cursor: pointer;
+}
+
+
+.topbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    font-size: 13px;
+    margin: 10px;
+}
+
+#sign-in{
+    color: white;
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    line-height: 27px;
+    width: 68px;
+    margin-right: 22px;
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    padding-top: 140px;
+}
+
+#logo{
+    display: block;
+}
+
+form{
+    width: 500px;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search{
+    width: 100%;
+    position: relative;
+}
+
+input{
+    width: 80%;
+    padding: 0.8em 3em;
+    border-radius: 64px;
+    outline: none;
+    border: 1px solid;
+    background-color: transparent;
+    font-size: 16px;
+    text-align: start;
+    word-wrap: break-word;
+}
+
+input:hover{
+    box-shadow: 0px 0px 10px #888888;
+    border-color: transparent;
+}
+
+.fa-search, .fa-microphone, .fa-camera, #image_search{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-search{
+    left: 25px;
+}
+
+.fa-camera{
+    right: 55px;
+}
+
+.fa-microphone{
+    right: 35px;
+}
+
+#image_search{
+    background: none;
+    border: none;
+    padding: 0;
+    right: 47px;
+}
+
+.buttons{
+    margin: 20px;
+}
+
+.buttons button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 3px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.languages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+    margin-top: -52px;
+}
+
+.languages a{
+    color: blue;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.footer a{
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 27px;
+}
+
+.footer p{
+    font-size: 14px;
+    line-height: 15px;
+    padding-left: 27px;
+}
+
+.footer_both{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
